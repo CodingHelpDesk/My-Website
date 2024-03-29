@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: 'Arial', sans-serif; /* Choose your preferred font */
+        }
+    
+        /* Navbar styles */
+        nav {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 15px;
+          background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+        }
+    
+        nav a {
+          color: white;
+          text-decoration: none;
+          margin: 0 15px;
+          transition: color 0.3s ease-in-out;
+        }
+    
+        nav a:hover {
+          color: #33ccff; /* Change color on hover */
+        }
+    
+        /* Branding styles */
+        .branding {
+          font-size: 1.5em;
+          font-weight: bold;
+          color: #fff;
+          text-decoration: none;
+        }
+    
+        /* Responsive styles */
+        @media(max-width: 768px) {
+          nav {
+            flex-direction: column;
+            text-align: center;
+          }
+    
+          nav a {
+            margin: 10px 0;
+          }
+        }
+      </style>
+</head>
+<body>
+    <nav>
+        <a href="#" class="branding">CodingHelpDesk</a>
+        <div>
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Resume</a>
+          <a href="#">Projects</a>
+          <a href="#">Notes</a>
+        </div>
+      </nav>
+</body>
+</html>

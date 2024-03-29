@@ -1,0 +1,304 @@
+body{
+    font-family: 'work Sans';
+}
+*{
+   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:rgb(227 227 227);
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   margin-bottom: 20px;
+  
+   box-shadow: 2px 2px 5px 5px white;
+  /*  background-color: rgb(212, 211, 211); /* Transparent background */
+  }
+
+  nav a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 12px;
+    transition: color 0.1s ease-in-out;
+  }
+
+  nav a:hover {
+    color: #ff6a00; /* Change color on hover */
+  }
+
+  /* Branding styles */
+  .branding {
+
+    font-size: 2em;
+    font-weight: bold;
+    color: #9f6a07;
+    text-decoration: none;
+  }
+
+  /* Responsive styles */
+  @media(max-width: 868px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 10px 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* CSS for welcome section*/
+
+  .welcome{
+    background-color: white;
+    margin : auto;
+    padding: 80px;
+    text-align:center;
+    width: 40vw;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px rgb(201, 199, 199)
+ }
+ #wel{
+    /*font-family:sans-serif; */
+    background-color:white;
+    font-size: 55px;
+ }
+ #p{
+    font-family: 'work Sans'; 
+    background-color:white;
+    margin:10px;
+    padding: 30px;;
+ }
+ #button{
+    padding: 10px;
+    margin:20px;
+    text-decoration: none;
+    background-color: #977325;
+    color:#ffffff
+ }
+
+ /* this is for hello section*/
+ .hello{
+
+    background-color: rgb(255, 255, 255);
+    margin-top :80px ;
+    padding: 150px;
+    text-align:center;
+    display: block;
+ }
+ #logo{
+    border-radius: 50%;
+    width: 450px;
+    float: left;
+    margin-right:  50px;
+    display: flex;
+    box-shadow: 0px 0px 5px 5px #a0a19c
+ }
+ .hello1{
+    background-color: white;
+    margin:20px;
+ }
+ .hello2{
+    font-size: 100px;
+    background-color: white;
+ }
+ .hello3{
+    background-color: white;
+    text-align:left;
+
+ }
+ .button1{
+    padding: 55px;
+    border-radius: 50%;
+    margin: 7px;
+    background-color: #e8c919;
+    color:#000000;
+    font-size:20px;
+ }
+ .button2{
+    padding: 55px;
+    border-radius: 50%;
+    margin: 7px;
+    background-color: #b93805;
+    color:#000000;
+    font-size:20px;
+ }
+ .button3{
+    padding: 55px;
+    border-radius: 50%;
+    margin: 7px;
+    background-color: #0b75d1;
+    color:#000000;
+    font-size:20px;
+ }
+ .button1:hover{
+    background-color: #dadcdd;
+ } 
+ .button2:hover{
+    background-color: #dadcdd;
+ } 
+ .button3:hover{
+    background-color: #dadcdd;
+ } 
+
+
+
+ /* this is the section for update section*/
+.update{
+    
+    margin:70px; 
+    width: 60vw;
+    margin-left: 20vw;
+    text-align: center; 
+    display:inline-flex;    /*immmpp*/
+    background-color: white;
+}
+.upda{
+    margin: 40px;
+    background-color: white;
+
+}
+#input{
+    width: 20vw;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-color: #b96518;
+}
+.but{
+    width: 20vw;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(134, 92, 3);
+    border-color: #b96518;
+    color:white
+}
+#img{
+    width: 30vw;
+}
+
+/*   this is css for about section*/
+.about{
+
+    padding: 10vw;
+    text-align: justify; 
+    background-color: white;
+}
+.aboutme{
+    background-color: white;
+    margin: 30px;
+  /*  font-family:Arial, Helvetica, sans-serif;*/
+}
+.abo{
+font-size: 60px;
+}
+
+/* CSS for Form */
+
+.form-container {
+    width: 50vw;
+    margin: 40px auto;
+    padding: 80px;
+    background-color: white;
+
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+#form{
+    background-color: white;
+}
+#form1{
+    background-color: white;
+    text-align: center;
+    padding: 3px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #875806;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+
+/*   For Footer*/
+.footer-container {
+    background-color:rgb(227 227 227);
+    color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#phone{
+    display: inline;
+    float: inline-start;
+    padding:30px;
+    width: 22vw;
+}
+#email{
+    display: inline;
+    float: inline-start;
+    padding:30px;
+    width: 22vw;
+}
+#follow{
+    display: inline;
+    float: inline-start;
+    padding:30px;
+    width: 22vw;
+}
+
+.copyright-text {
+ float: inline-end;
+padding: 30px;
+ width:25vw;
+
+    font-size: 8px;
+}
+
+
